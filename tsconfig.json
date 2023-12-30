@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist" /* Redirect output structure to the directory. */,
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+            "*": ["node_modules/*", "vendor/*"],
+            "src/*": ["./src/*"]
+        },
+    "types": ["node", "@prisma/client", "jest"],
+
+  }
+}
